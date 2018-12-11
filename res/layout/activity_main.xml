@@ -16,6 +16,14 @@
         android:gravity="center"
         android:orientation="vertical" >
 
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="Taxi appointment"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -59,22 +67,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal" >
-
-            <CheckBox
-                android:id="@+id/checkBox2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_weight="1"
-                android:text="Passenger" />
-
-            <CheckBox
-                android:id="@+id/checkBox1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="10dp"
-                android:layout_weight="1"
-                android:text="Driver" />
         </LinearLayout>
 
         <Button
@@ -87,44 +79,43 @@
             android:text="login"
             android:textColor="@color/base_color_text_white"
             android:textSize="@dimen/text_size_large" />
-    </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="48dp"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="20dp"
-        android:gravity="center"
-        android:orientation="horizontal" >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical"
+                android:text="@string/register_txt1"
+                android:textColor="@color/base_color_text_gray"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/wel_register"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="5dp"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:text="@string/register_txt2"
+                android:textColor="@color/color_theme"
+                android:textSize="20sp" />
+        </LinearLayout>
 
         <TextView
+            android:id="@+id/wel_forget"
             android:layout_width="wrap_content"
-            android:layout_height="fill_parent"
+            android:layout_height="28dp"
             android:gravity="center_vertical"
-            android:text="@string/register_txt1"
+            android:text="@string/register_txt3"
             android:textColor="@color/base_color_text_gray"
             android:textSize="20sp" />
 
-        <TextView
-            android:id="@+id/wel_register"
-            android:layout_width="wrap_content"
-            android:layout_height="fill_parent"
-            android:layout_marginLeft="5dp"
-            android:clickable="true"
-            android:gravity="center_vertical"
-            android:text="@string/register_txt2"
-            android:textColor="@color/color_theme"
-            android:textSize="20sp" />
     </LinearLayout>
-
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/linearLayout1"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="28dp"
-        android:text="Taxi appointment"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
 
 </RelativeLayout>
