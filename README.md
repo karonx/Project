@@ -1,5 +1,5 @@
 # TaxiAppointment-Using-Cloud-Database
-Graduation project in AIT.
+FYP.
 Cloud databases supported by Bmob.
 Android based application.
-Full code will be uploaded later sometime.
+Full code uploaded.
