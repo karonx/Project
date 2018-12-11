@@ -70,6 +70,34 @@
             android:name=".Pickup"
             android:label="@string/title_activity_pickup" >
         </activity>
+        <activity
+            android:name=".Order"
+            android:label="@string/title_activity_order" >
+        </activity>
+        <activity
+            android:name=".TestActivity"
+            android:label="@string/title_activity_test" >
+        </activity>
+        <activity
+            android:name=".Orederlist"
+            android:label="@string/title_activity_orederlist" >
+        </activity>
+        <activity
+            android:name=".Orderlist_item"
+            android:label="@string/title_activity_orderlist_item" >
+        </activity>
+        <activity
+            android:name=".Order_detail"
+            android:label="@string/title_activity_order_detail" >
+        </activity>
+        <activity
+            android:name=".Forget"
+            android:label="@string/title_activity_forget" >
+        </activity>
+        <activity
+            android:name=".RouteActivity"
+            android:label="@string/title_activity_route" >
+        </activity>
     </application>
 
 </manifest>
