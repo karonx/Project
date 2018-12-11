@@ -25,6 +25,19 @@
             android:layout_alignParentLeft="true"
             android:layout_centerVertical="true"
             android:text="phone" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:ems="10"
+            android:inputType="phone" >
+
+            <requestFocus />
+        </EditText>
+
     </RelativeLayout>
 
     <RelativeLayout
@@ -51,6 +64,16 @@
             android:layout_centerVertical="true"
             android:layout_marginRight="20dp"
             android:drawablePadding="10dp" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/location"
+            android:ems="10"
+            android:inputType="textEmailAddress" />
+
     </RelativeLayout>
 
     <RelativeLayout
@@ -71,6 +94,33 @@
             android:layout_alignParentLeft="true"
             android:layout_centerVertical="true"
             android:text="name" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
     </RelativeLayout>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/layout_email"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="72dp"
+        android:text="Save Changes" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_alignRight="@+id/layout_email"
+        android:text="Log out" />
 
 </RelativeLayout>

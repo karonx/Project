@@ -22,7 +22,7 @@ import cn.bmob.v3.listener.SaveListener;
 
 
 public class MainActivity extends Activity implements OnClickListener{
-	private TextView btn_register;
+	private TextView btn_register,btn_forget;
 	private EditText et_username, et_password;
 	private Button btn_login;
 	private String username_login;
@@ -42,15 +42,24 @@ public class MainActivity extends Activity implements OnClickListener{
 		btn_login = (Button) findViewById(R.id.btn_login);
 		btn_login.setOnClickListener(this);
 		btn_register = (TextView) findViewById(R.id.wel_register);
-		checkBox = (CheckBox) findViewById(R.id.checkBox1);
-		checkBox2 = (CheckBox) findViewById(R.id.checkBox2);
+		btn_forget=(TextView) findViewById(R.id.wel_forget);
 		btn_register.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {
 				intent = new Intent(MainActivity.this,
 						RegActivity.class);
 				startActivity(intent);
-				finish();
+				
+			}
+		});
+		btn_forget.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				intent = new Intent(MainActivity.this,
+						Forget.class);
+				startActivity(intent);
 			}
 		});
     }
@@ -105,5 +114,4 @@ public class MainActivity extends Activity implements OnClickListener{
 		});
 	}
 	}
-
 	}

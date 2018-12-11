@@ -11,6 +11,7 @@ import android.widget.Toast;
 
 public class Boolean1 extends Activity {
 	private Intent intent;
+	private String value;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -20,6 +21,11 @@ public class Boolean1 extends Activity {
 		Boolean userc1=cperson.isPassenger();
 		if (userc.equals(true)) {
 			Toast.makeText(Boolean1.this,"User type is driver"+userc, Toast.LENGTH_SHORT).show();
+			intent = new Intent(Boolean1.this,
+					Orederlist.class);
+//			intent.putExtra(value, "driver");
+			startActivity(intent);
+			finish();
 		}else if (userc1.equals(true)) {
 			Toast.makeText(Boolean1.this,"User type is passenger"+userc1, Toast.LENGTH_SHORT).show();
 			intent = new Intent(Boolean1.this,

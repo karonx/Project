@@ -8,6 +8,7 @@
     <string name="login_password_hint">please enter password</string>
     <string name="register_txt1">No account?</string>
     <string name="register_txt2">Register now</string>
+    <string name="register_txt3">Forget password?</string>
     <string name="title_activity_reg">RegActivity</string>
     <string name="Username">Username</string>
     <string name="password">Password</string>
@@ -20,5 +21,12 @@
     <string name="title_activity_googlemap">Main</string>
     <string name="title_activity_userinfo">Userinfo</string>
     <string name="title_activity_pickup">Pickup</string>
+    <string name="title_activity_order">Order</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_orederlist">Orederlist</string>
+    <string name="title_activity_orderlist_item">Orderlist_item</string>
+    <string name="title_activity_order_detail">Order_detail</string>
+    <string name="title_activity_forget">Forget</string>
+    <string name="title_activity_route">RouteActivity</string>
 
 </resources>

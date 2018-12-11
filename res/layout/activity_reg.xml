@@ -95,18 +95,14 @@
 
  <LinearLayout style="@style/Smile" 
      android:orientation="horizontal">
-    <CheckBox
-        android:id="@+id/checkBox1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/passenger" />
- </LinearLayout>
-
- <CheckBox
+     <CheckBox
      android:id="@+id/checkBox2"
      android:layout_width="wrap_content"
      android:layout_height="wrap_content"
-     android:text="@string/driver" />
+     android:text="I'm a Driver,not passenger" />
+ </LinearLayout>
+
+
 
     <Button
         android:id="@+id/btn_register"

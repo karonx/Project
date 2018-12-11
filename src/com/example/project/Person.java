@@ -16,13 +16,13 @@ public class Person extends BmobUser{
 	public boolean isDriver() {
 		return driver;
 	}
-	public void setDriver(boolean driver) {
-		this.driver = driver;
+	public void setDriver(boolean driverb) {
+		this.driver = driverb;
 	}
 	public boolean isPassenger() {
 		return passenger;
 	}
-	public void setPassenger(boolean passenger) {
-		this.passenger = passenger;
+	public void setPassenger(boolean passengerb) {
+		this.passenger = passengerb;
 	}
 }

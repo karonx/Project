@@ -39,7 +39,7 @@
             android:value="@integer/google_play_services_version" />
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
-            android:value="AIzaSyDvfBFXOus0HAQCbztzndgq4pi7g6l70Mc" />
+            android:value="**********************************" />
 
         <activity
             android:name=".MainActivity"
@@ -69,6 +69,34 @@
         <activity
             android:name=".Pickup"
             android:label="@string/title_activity_pickup" >
+        </activity>
+        <activity
+            android:name=".Order"
+            android:label="@string/title_activity_order" >
+        </activity>
+        <activity
+            android:name=".TestActivity"
+            android:label="@string/title_activity_test" >
+        </activity>
+        <activity
+            android:name=".Orederlist"
+            android:label="@string/title_activity_orederlist" >
+        </activity>
+        <activity
+            android:name=".Orderlist_item"
+            android:label="@string/title_activity_orderlist_item" >
+        </activity>
+        <activity
+            android:name=".Order_detail"
+            android:label="@string/title_activity_order_detail" >
+        </activity>
+        <activity
+            android:name=".Forget"
+            android:label="@string/title_activity_forget" >
+        </activity>
+        <activity
+            android:name=".RouteActivity"
+            android:label="@string/title_activity_route" >
         </activity>
     </application>
 

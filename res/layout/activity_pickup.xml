@@ -4,15 +4,6 @@
     android:layout_height="match_parent"
     tools:context="${relativePackage}.${activityClass}" >
 
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/timePicker1"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="44dp"
-        android:text="Pick Me Up" />
-
     <EditText
         android:id="@+id/editText1"
         android:layout_width="wrap_content"
@@ -59,5 +50,25 @@
         android:layout_below="@+id/textView1"
         android:layout_marginTop="34dp"
         android:text="To" />
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/pickup"
+        android:layout_alignBottom="@+id/pickup"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="28dp"
+        android:text="Cancel" />
+
+    <Button
+        android:id="@+id/pickup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/timePicker1"
+        android:layout_below="@+id/timePicker1"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="54dp"
+        android:text="Pick Me Up" />
 
 </RelativeLayout>
